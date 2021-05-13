@@ -27,6 +27,7 @@ void FillVector(std::vector<int>& the_vector, const int nelements, RandomNumberG
 float CalculateAverage(const std::vector<int>& the_vector) {
   int sum = accumulate(the_vector.begin(), the_vector.end(), 0);
   float average = float(sum) / float(the_vector.size());
+  return average;
 }
 
 int CalculateMedian(const std::vector<int>& the_vector) {
@@ -39,6 +40,7 @@ int CalculateMedian(const std::vector<int>& the_vector) {
     ErrorMessage("Couldn't access the middle of the vector.");
     exit(1);
   }
+  return median;
 }
 
 int CalculateMode(const std::vector<int>& the_vector) {
@@ -61,4 +63,5 @@ int CalculateMode(const std::vector<int>& the_vector) {
       count = 1;
     }
   }
+  return mode;
 }

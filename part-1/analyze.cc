@@ -1,3 +1,13 @@
+// Muktita Kim
+// CPSC 120-02
+// 2021-05-13
+// muktitakim@gmail.com
+// @muktita
+// 
+//lab 13-01
+//
+// This program analyze and run min
+//
 
 #include <algorithm>
 #include <vector>
